@@ -1,0 +1,124 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Definindo Fonte Padrão. */
+    color: white; /* Cor do texto. */
+    text-align: justif; /* Justificando o texto, como no word. */
+    margin-top: 20px; /* Criando uma margem superior. */
+    width: 100vw; /* Largura do corpo. */
+    height: 100%; /* Altura do corpo. */
+    background-image: url('./imageFundo/BluePink.jpg.jpg'); /* Definindo imagem de fundo da tela. */
+    background-size: cover; /* Ajustando imagem para cobrir toda a tela. */
+    background-repeat: no-repeat; /* Limitando a imagem, para que a mesma não se repita. */
+    
+}
+
+.corpo{
+    background-color: rgba(0, 0, 0, 0.5); /* Cor principal do corpo. */
+    width: 60%; /* Largura do corpo. */
+    height: 60%; /* Altura do corpo. */
+    margin: 0 auto; /* Centralizando horizontalmente o corpo. */
+    margin-bottom: 20px;
+    padding: 20px; /* Definindo o espaçamento interno. */
+    border-radius: 20px; /* Arredondando os cantos do corpo. */
+}
+h1{
+    text-align: center; /* Alinha o texto. */
+    color: white; /* Cor do texto. */
+    margin-bottom: 20px; /* Definindo a margem do botão. */
+    font-size: 35px; /* Tamanho da fonte. */
+    font-weight: bold; /* Colocando a fonte em negrito. */
+    letter-spacing: 2px; /* Aumentando o espaço entre as letras. */
+}
+.resultado{
+    text-align: center; /* Alinha o texto. */
+    margin-top: 20px;  /* Criando uma margem superior. */
+    font-size: 18px; /* Tamanho da fonte. */
+}
+button{
+    padding: 10px 20px; /* definindo o espaçamento interno do botão. */
+    background-color: #4d285c; /* Definindo cor de fundo do botão. */
+    color: white; /* Cor do texto. */
+    border: none; /* Removendo as bordas e deixando mais suave. */
+    border-radius: 10px; /* Arredondando os cantos do botão. */
+    cursor: pointer; /* Define o cursor e indica que o botão pode ser clicado. */
+    margin: 0 auto; /* alinha o botão na horizontal. */
+    font-size: 15px; /* Configura o tamanho da fonte dentro do botão. */
+    text-align: center; /* Alinha o texto. */
+}
+h2{
+    margin-top: 20px;  /* Criando uma margem superior. */
+    color: white; /* Cor do texto. */
+    font-size: 30px; /* Tamanho da fonte. */
+    font-weight: bold; /* Colocando a fonte em negrito. */
+    letter-spacing: 2px; /* Aumentando o espaço entre as letras. */
+}
+
+h3{
+    margin-top: 20px;  /* Criando uma margem superior. */
+    color: white; /* Cor do texto. */
+    font-size: 25px; /* Tamanho da fonte. */
+    text-align: justify; /* Justificando o texto, como no word. */
+    font-weight: bold; /* Colocando a fonte em negrito. */
+    letter-spacing: 2px; /* Aumentando o espaço entre as letras. */
+}
+h4{
+    margin-top: 20px;  /* Criando uma margem superior. */
+    color: white; /* Cor do texto. */
+    font-size: 22px; /* Tamanho da fonte. */
+    font-weight: bold; /* Colocando a fonte em negrito. */
+    letter-spacing: 2px; /* Aumentando o espaço entre as letras. */
+}
+h5{
+    margin-top: 20px;  /* Criando uma margem superior. */
+    color: white; /* Cor do texto. */
+    font-size: 20px; /* Tamanho da fonte. */
+    font-weight: bold; /* Colocando a fonte em negrito. */
+    letter-spacing: 2px; /* Aumentando o espaço entre as letras. */
+}
+
+section{
+    margin-top: 20px;  /* Criando uma margem superior. */
+    flex-wrap: wrap; /* Permite a quebra de linhas se necessário. */
+    font-size: 20px;
+    justify-content: center; /* Alinhando os intens. */
+    text-align: justify; /* Justificando o texto, como no word. */
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; /* Cor do texto. */
+    text-align: center; /* Alinha o texto. */
+    padding: 15px; /* Definindo o espaçamento interno. */
+}
+
+/* Ajustes para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    body{
+        background-size: 100% 100%; /* Ajustando imagem para cobrir toda a tela. */
+        font-size: 18px; /* Tamanho da fonte. */
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em; 
+    }
+    p {
+        font-size: 1em;
+    }
+    button {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
+/* Configurando a barra de rolagem */
+::-webkit-scrollbar{
+    width: 20px; /* Largura da barra de rolagem . */
+    height: 20PX; /* Altura da barra de rolagem . */
+    border-radius: 10px; /* Arredondando as bordas . */
+    cursor: pointer; /* Altera o cursor. */
+}
+::-webkit-scrollbar-thumb{
+    background-color: #4d285c; /* Cor do cursor da barra . */
+    border-radius: 10px; /* Arredonda as bordas do cursor da barra . */
+
+}
